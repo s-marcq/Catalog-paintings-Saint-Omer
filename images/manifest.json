@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 1124,
+    "id" : "https://s-marcq.github.io/Catalog-paintings-Saint-Omer/images/f26/canvas/",
+    "label" : {
+      "none" : [ "f26" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://s-marcq.github.io/Catalog-paintings-Saint-Omer/images/f26/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://s-marcq.github.io/Catalog-paintings-Saint-Omer/images/f26/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 36,
+              "height" : 55
+            }, {
+              "width" : 71,
+              "height" : 110
+            }, {
+              "width" : 141,
+              "height" : 219
+            }, {
+              "width" : 281,
+              "height" : 438
+            }, {
+              "width" : 562,
+              "height" : 875
+            }, {
+              "width" : 1124,
+              "height" : 1749
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1124,
+            "@id" : "https://s-marcq.github.io/Catalog-paintings-Saint-Omer/images/f26",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1749
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1124,
+          "id" : "https://s-marcq.github.io/Catalog-paintings-Saint-Omer/images/f26/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1749
+        },
+        "target" : "https://s-marcq.github.io/Catalog-paintings-Saint-Omer/images/f26/canvas/"
+      } ]
+    } ],
+    "height" : 1749
+  }, {
     "width" : 1129,
     "id" : "https://s-marcq.github.io/Catalog-paintings-Saint-Omer/images/f25/canvas/",
     "label" : {
